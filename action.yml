@@ -1,0 +1,12 @@
+name: 'Start AWS instance'
+description: 'Greet someone and record the time'
+inputs:
+  aws-instance-id:
+    description: 'Instance ID'
+    required: true
+  aws-region:
+    description: 'Instance region'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'
